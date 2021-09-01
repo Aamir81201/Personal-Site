@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    color: #66bfbf;
+    font-size: 6rem;
+    font-family: 'Sacramento', cursive;
+    font-weight: 400;
+    margin: 0;
+}
+
+h2, h3, a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+p{
+    color: #40514e;
+    font-family: 'roboto' , sans-serif;
+    line-height: 2;
+}
+
+hr{
+    border-style:dotted;
+    color: #eaf6f6;
+    opacity: 100%;
+    background: #fff;
+    border-bottom: none;
+    border-width: 7px;
+    width: 6%;
+    margin: 1% auto;
+}
+
+.container-fluid{
+    padding: 0 15% ;
+}
+
+/* headngs */
+
+.section-heading{
+    color: #66bfbf;
+    margin: 0 auto 50px;
+    font-size: 2.5rem;
+}
+
+.section-subheading{
+    color: #11999e;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* Header-Section */
+
+#header-section{
+    background-color: #E4F9F5;
+}
+
+/* Navigation Bar */
+
+.navbar-brand{
+    color: #11999e;
+    font-size: 1.75rem;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+.logo{
+    position: relative;
+    bottom: .25rem;
+    width: 40px;
+}
+
+.navbar-toggler{
+    color: #11999e;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2817, 153, 158, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-item{
+    text-align: left;
+}
+
+.nav-link{
+    color: #66bfbf;
+}
+
+.nav-link:hover{
+    color: #11999e;
+}
+
+/* Title-Section */
+
+#title-section{
+    position: relative;
+    padding: 45px 0 0;
+}
+
+.bird-image{
+    position: relative;
+    right: 175px;
+}
+
+.proffestion{
+    color: #66bfbf;
+    margin: 0;
+    z-index: 10;
+    font-size: 1.5rem;
+}
+
+.mountain-image{
+    width: 65%
+}
+
+.cloud-image-top{
+    width: 15%;
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+.cloud-image-bottom{
+    width: 15%;
+    position: absolute;
+    bottom: 300px;
+    left: 0;
+}
+
+/* Middle-Section */
+
+#middle-section{
+    background: #fff;
+}
+
+/* Intro-Section */
+
+#intro-section{
+    padding: 7% 35% 6%;
+}
+
+.profile-image{
+    margin-bottom: 50px ;
+    width: 250px;
+}
+
+.intro-text{
+    margin: 3% auto 0;
+}
+
+/* Skills-Section */
+
+#skills-section{
+    padding: 6% 25%;
+}
+
+.coding-image{
+    width: 175px;
+}
+
+.chess-image{
+    width: 175px;
+}
+
+
+.skills-info{
+    text-align: left;
+    padding: 50px 0 0;
+}
+
+/* Contact-Section */
+
+#contact-section{
+    padding: 6% 30%;
+}
+
+.contact-text{
+    margin: 50px auto;
+}
+
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    background-color: #11999e;
+    border-color: #11999e;
+
+}
+
+.btn:hover{
+    background-color:#66bfbf;
+    border-color: #66bfbf;
+
+}
+
+.btn-link{
+    color: white;
+    text-decoration: none;
+}
+
+.btn-link:hover{
+    color:whitesmoke;
+}
+
+/* Footer-Section */
+
+#footer-section{
+    background-color: #66bfbf;
+    padding: 3% 15%;
+}
+
+.social-link{
+    color: #11999e;
+    text-decoration: none;
+    margin: auto 20px;
+}
+
+.social-link:hover{
+    color: #fff;
+}
+
+.copyright-text{
+    color: #fff;
+    margin: 3% auto 0;
+    font-size: .75rem;
+}
+
+
+
+@media (max-width: 1028px){
+
+    .container-fluid{
+        padding: 0 5%;
+    }
+
+    .mountain-image{
+        width: 100%;
+    }
+
+    .cloud-image-top, .cloud-image-bottom{
+        width: 30%;
+    }
+
+}
+
