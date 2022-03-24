@@ -8,6 +8,7 @@ h1 {
   font-size: 5rem;
   font-family: "Sacramento", cursive;
   font-weight: 400;
+  position: relative;
   z-index: 1;
   margin: 0;
 }
